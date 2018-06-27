@@ -11,7 +11,7 @@ int main(void)
 
     do
     {printf("card number? ");
-    cardnumber = GetLongLong();
+    cardnumber = get_long_long();
     }
     while (cardnumber < 0);
 
