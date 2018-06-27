@@ -4,18 +4,18 @@
 
 int main(void)
 {
-    // Declare and initialize a variable and ask for user input.
+
     long long cardnumber = 0;
 
-    // Ask for credit card number
+
 
     do
-    {printf("What is your card number? ");
+    {printf("card number? ");
     cardnumber = GetLongLong();
     }
     while (cardnumber < 0);
 
-    // Determine whether it has a valid number of digits
+
     int count = 0;
     long long digits = cardnumber;
     while (digits > 0)
