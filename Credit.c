@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <math.h>
 #include <stdio.h>
-///////// testing for time
+///////// testing for time///
 int main(void)
 {
 
